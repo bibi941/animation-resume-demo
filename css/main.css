@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.token.selector,
+.token.property,
+.token.function {
+    color: black;
+}
+/* 代码高亮先变黑 */
+#code{
+    height: 100vh;
+    overflow: auto;
+}
